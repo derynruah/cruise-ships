@@ -10,7 +10,7 @@ class Ship {
     }
     dock() {
         const itinerary = this.itinerary
-        const perviousPortIndex = itinerary.ports.indexOf(this.previosuPort);
+        const perviousPortIndex = itinerary.ports.indexOf(this.previousPort);
 
         this.currentPort = itinerary.ports[perviousPortIndex + 1];
     }
